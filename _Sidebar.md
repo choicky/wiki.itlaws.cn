@@ -4,7 +4,7 @@
 * [Linux](/IT/Linux/)
 
 ###### Laws notes
-* [z开头的法律法规](/laws/z/)
+* [z开头的法律法规](/Laws/Z/)
 
 ###### Life notes
 
