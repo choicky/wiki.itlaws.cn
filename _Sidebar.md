@@ -7,4 +7,3 @@
 
 ###### Life notes
 
-[[_TOC_]]
