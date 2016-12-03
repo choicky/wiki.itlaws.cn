@@ -1,3 +1,5 @@
+[Gollum](https://github.com/gollum/gollum) 是一个支持 MarkDown 语言的 Wiki 程序。最初由 [Github](https://github.com/) 开发自用，后来开源出来给大家使用。
+
 ## 安装 gollum
     sudo apt-get install ruby ruby-dev make zlib1g-dev libicu-dev build-essential git
     sudo gem install gollum
