@@ -22,4 +22,4 @@ fi
 
 # Ubuntu 安装与配置
 
- * [Ubuntu 16.04 设置并启用ufw和swapfile](Ubuntu-16.04-ufw-swapfile)
+ * [Ubuntu 16.04 设置sshd并启用ufw和swapfile](Ubuntu-16.04-sshd-ufw-swapfile)
