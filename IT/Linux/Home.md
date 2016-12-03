@@ -19,3 +19,7 @@ fi
     complete -cf sudo
 
 然后 `source ~./bashrc`加载新设置
+
+# Ubuntu 安装与配置
+
+ * [Ubuntu 16.04 设置并启用ufw和swapfile](Ubuntu-16.04-ufw-swapfile)
