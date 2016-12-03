@@ -1,7 +1,7 @@
 ###### IT notes
-* [Gollum](/it/gollum)
-* [Hugo](/it/hugo)
-* [Linux](/it/Linux/)
+* [Gollum](/IT/gollum)
+* [Hugo](/IT/hugo)
+* [Linux](/IT/Linux/)
 
 ###### Laws notes
 * [z开头的法律法规](/laws/z/)
