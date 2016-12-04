@@ -23,3 +23,9 @@ fi
 # Ubuntu 安装与配置
 
  * [Ubuntu 16.04 设置sshd并启用ufw和swapfile](Ubuntu-16.04-sshd-ufw-swapfile)
+
+# Windows与Ubuntu双系统下，时间相差8小时的解决方案
+
+在 Ubuntu 中运行如下命令：
+
+    sudo timedatectl set-local-rtc 1
