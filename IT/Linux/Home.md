@@ -37,3 +37,7 @@ fi
     # Windows与Ubuntu双系统下，时间相差8小时的解决方案
 
 这样就能使 choicky 用户使用 sudo 时免密码。
+
+# supervisor 的安装与配置
+
+ * [supervisor 的安装与配置](supervisor)
