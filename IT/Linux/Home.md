@@ -29,3 +29,11 @@ fi
 在 Ubuntu 中运行如下命令：
 
     sudo timedatectl set-local-rtc 1
+
+# Ubuntu 中 sudo 免输入密码
+
+在 `/etc/sudoers` 增加一行
+
+    # Windows与Ubuntu双系统下，时间相差8小时的解决方案
+
+这样就能使 choicky 用户使用 sudo 时免密码。
