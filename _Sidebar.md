@@ -1,4 +1,5 @@
 ###### IT notes
+* [EMlog](/IT/emlog)
 * [Gollum](/IT/gollum)
 * [Hugo](/IT/hugo)
 * [Linux](/IT/Linux/)
