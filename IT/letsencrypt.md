@@ -2,19 +2,19 @@
 
 Ref: [https://certbot.eff.org/#ubuntuxenial-nginx](https://certbot.eff.org/#ubuntuxenial-nginx)
 
-## 使用 certbot 获取 https 证书
+### 使用 certbot 获取 https 证书
 
 ```
 sudo apt-get install letsencrypt
 letsencrypt certonly --webroot -w /var/www/example -d example.com -d www.example.com
 ```
 
-## 测试自动更新
+### 测试自动更新
 
     letsencrypt renew --dry-run --agree-tos
 
 
-## 将自动更新任务写到 crontab
+### 将自动更新任务写到 crontab
 
     sudo crontab -e
 
@@ -29,11 +29,11 @@ REF1: [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](https://www.digit
 
 REF2: [How To Set Up Nginx with HTTP/2 Support on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04)
 
-## 生成更安全的 Diffie-Hellman Group
+### 生成更安全的 Diffie-Hellman Group
 
     sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 
-## 定义 ssl 参数
+### 定义 ssl 参数
 
     sudo nano -w /etc/nginx/snippets/ssl-params.conf
 
@@ -64,7 +64,7 @@ add_header X-Content-Type-Options nosniff;
 ssl_dhparam /etc/ssl/certs/dhparam.pem;
 ```
 
-## 配置 nginx 启用 https
+### 配置 nginx 启用 https
 
     sudo nano -w /etc/nginx/sites-available/default
 
