@@ -6,12 +6,12 @@ Ref: [https://certbot.eff.org/#ubuntuxenial-nginx](https://certbot.eff.org/#ubun
 
 ```
 sudo apt-get install letsencrypt
-letsencrypt certonly --webroot -w /var/www/example -d example.com -d www.example.com
+sudo letsencrypt certonly --webroot -w /var/www/example -d example.com -d www.example.com
 ```
 
 ### 测试自动更新
 
-    letsencrypt renew --dry-run --agree-tos
+    sudo letsencrypt renew --dry-run --agree-tos
 
 
 ### 将自动更新任务写到 crontab
